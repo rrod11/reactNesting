@@ -1,6 +1,6 @@
-function Movies() {
+function Movies({ id, title, description }) {
   return (
-    <div className='comp orange'>
+    <div className="comp orange">
       <h1>Movies Component</h1>
     </div>
   );
